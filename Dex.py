@@ -1,11 +1,5 @@
 
-from cProfile import label
-from cgitb import text
-from email.mime import image
-import http
-from json import load
-from tkinter import Image, PhotoImage, font
-from urllib import response
+
 import pypokedex
 import PIL.Image, PIL.ImageTk
 import tkinter as tk
