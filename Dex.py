@@ -1,4 +1,8 @@
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6c861049fd6d810aa55a657789132ddba7064291
 import pypokedex
 import PIL.Image
 import PIL.ImageTk
