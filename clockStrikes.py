@@ -11,7 +11,7 @@ def time():
     label.config(text=string)
     label.after(1000, time)
 
-label = Label(root, font=("DS-DIGITAL", 80), background = "black",foreground = "red")
+label = Label(root, font=("MRROBOT", 70), background = "black",foreground = "red")
 label.pack(anchor='center')
 time()
 
