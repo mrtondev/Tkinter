@@ -21,6 +21,9 @@ def load_pokemon():
         http = urllib3.PoolManager()
         response = http.request("GET", pokemon.sprites.front.get("default"))
         image = PIL.Image.open(BytesIO(response.data))
+        new_width = 200
+        new_height = 200
+        image = image.resize((new_width, new_height))
 
         img = PIL.ImageTk.PhotoImage(image)
         pokemon_image.config(image=img)
@@ -49,7 +52,7 @@ def on_enter_pressed(event):
     load_pokemon()
 
 window = tk.Tk()
-window.geometry("600x500")
+window.geometry("700x600")
 window.title("PyDex")
 window.config(padx=10, pady=10)
 window.resizable(True, True)
