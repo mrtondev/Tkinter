@@ -12,4 +12,4 @@ $ python3 -m pip install --upgrade pypokedex
 
 $ python3 -m pip install --upgrade tk
 
-Todo código aqui mostrado é aberto a críticas e sujestões.
+Todo código aqui mostrado é aberto a críticas e sugestões.
