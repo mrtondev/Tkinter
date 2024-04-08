@@ -6,9 +6,25 @@ Também possui um projeto meu, uma pequena dex em pyton, afim de divertir o apre
 
 Para o Dex.py vc precisará das seguintes libs.
 
+pip, Tkinter , Pillow e pypokedex :
+
+Para instalar elas, siga os seguintes passos: 
+
+troque a versão do python no exemplo para a sua atual (ex: python3.11 -m pip install -- upgrade pip)
+
+Primeiro instale o pip 
+
+$ python3 -m pip install --upgrade pip
+
+Segundo o pillow
+
 $ python3 -m pip install --upgrade pillow
 
+Depois, instale o pypokedex
+
 $ python3 -m pip install --upgrade pypokedex
+
+E então o Tkinter
 
 $ python3 -m pip install --upgrade tk
 
