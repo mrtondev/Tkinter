@@ -1,4 +1,5 @@
 from io import BytesIO
+from PIL.Image import core as _imaging
 import pypokedex
 import PIL.Image
 import PIL.ImageTk

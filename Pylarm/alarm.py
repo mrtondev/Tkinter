@@ -19,7 +19,7 @@ window.resizable(width=TRUE, height=TRUE)
 
 
 
-data=datetime.date(2023,4,11)
+data=datetime.date(2023,4,15)
 print(data)
 
 print(data.ctime())
@@ -30,6 +30,7 @@ dia = data.day
 
 #hora = data.hora # error
 print(ano, mes, dia)
+
 
 
 
